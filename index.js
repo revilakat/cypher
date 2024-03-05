@@ -5,6 +5,7 @@ class CaesarCipher {
     }
   
     encrypt(text) {
+      
       return this.transform(text, this.shift);
     }
   
